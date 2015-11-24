@@ -17,11 +17,13 @@
   <body>
     <div class="container-fluid">
     <div class="col-xs-12 col-sm-4 col-sm-offset-8 header">
-      <h3>Hello ^^</h3>
+      <h3>Hello</h3>
       <p>We all know life is tough and can use other people's wisdom to get motivated.</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-sm-offset-8 get_quote">
-      <form action="#" method="GET">
+      <form action="http://www.stands4.com/services/v2/quotes.php?" method="GET" id="quote_form">
+        <input type="hidden" name="uid" value="4570">
+        <input type="hidden" name="tokenid" value="08FIz21oRGB6mWwn">
         <input type="submit" class="btn btn-default button" value="INSPIRE ME!">
       </form>
     </div>
@@ -33,6 +35,9 @@
     </div>
   </body>
   <footer>
+    <div class="footer">
+      <p class="footer_text">Available in <a href="https://github.com/bokwon/quotes.generator" class="github_repo" target="_target">Github</a>, Quotes API is from <a href="http://www.abbreviations.com/api.php" class="github_repo" target="_target">Abbreviations</a> </p>
+    </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
