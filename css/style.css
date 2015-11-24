@@ -73,3 +73,8 @@ p{
   font-size: 12px;
 }
 
+@media (max-width: 767px){
+  .header {
+    margin-top: 10px;
+  }
+}
